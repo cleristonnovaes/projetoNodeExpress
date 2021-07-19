@@ -1,0 +1,30 @@
+{
+  "name": "projetonodeexpress",
+  "version": "1.0.0",
+  "description": "projeto nodeJS - API com Express e MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleristonnovaes/projetoNodeExpress.git"
+  },
+  "author": "cleriston novaes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleristonnovaes/projetoNodeExpress/issues"
+  },
+  "homepage": "https://github.com/cleristonnovaes/projetoNodeExpress#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
